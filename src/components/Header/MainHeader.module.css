@@ -1,0 +1,58 @@
+.header {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  background: hsl(0 0% 100% / 0.2);
+  position: fixed;
+  width: 100vw;
+  /* backdrop-filter: blur(1rem); */
+}
+
+.navbar-toggle {
+  display: none;
+  z-index: 9999;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  width: 2rem;
+  border: 0;
+  aspect-ratio: 1;
+  top: 1.5rem;
+  right: 2rem;
+  position: absolute;
+}
+
+.logo {
+  margin-left: 2rem;
+}
+
+.logo h1 {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 700px) {
+  .navbar-toggle {
+    display: block;
+    background-image: url("../../assets/shared/icon-hamburger.svg");
+  }
+
+  .expand {
+    display: block;
+    background-image: url("../../assets/shared/icon-close.svg");
+    z-index: 9999;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    width: 2rem;
+    border: 0;
+    aspect-ratio: 1;
+    top: 1.5rem;
+    right: 2rem;
+    position: absolute;
+  }
+}
+
+.sr-only {
+  left: -100vw;
+  position: absolute;
+}

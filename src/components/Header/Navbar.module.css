@@ -1,0 +1,55 @@
+.navigation,
+.collapse {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  list-style: none;
+  padding-inline: clamp(3rem, 6vw, 8rem);
+  gap: clamp(1.5rem, 5vw, 3rem);
+}
+
+.navigation a,
+.collapse a {
+  text-decoration: none;
+}
+
+.button {
+  background-color: transparent;
+  padding: 0.8rem 1.6rem;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #fff;
+  color: #0a1943;
+}
+
+@media (max-width: 700px) {
+  .navigation {
+    flex-direction: column;
+    position: fixed;
+    z-index: 1000;
+    gap: 2em;
+    padding: min(30vh, 8rem) 2rem;
+    inset: 0 0 0 30%;
+    background: hsl(0 0% 100% / 0.1);
+    backdrop-filter: blur(1rem);
+    transition: transform 350ms ease-out;
+  }
+
+  .collapse {
+    flex-direction: column;
+    position: fixed;
+    z-index: 1000;
+    gap: 2em;
+    padding: min(30vh, 8rem) 2rem;
+    inset: 0 0 0 30%;
+    background: hsl(0 0% 100% / 0.1);
+    backdrop-filter: blur(1rem);
+    transform: translateX(100%);
+    transition: transform 350ms ease-out;
+  }
+}
