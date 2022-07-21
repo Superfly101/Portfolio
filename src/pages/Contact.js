@@ -3,11 +3,11 @@ const Contact = () => {
     <section className="contact">
       <h3>Interested in collaborating with me?</h3>
       <p>
-        I'm always open to discussing product design work or partnership
+        I'm always open to discussing web development or partnership
         opportunities.
       </p>
 
-      <button className="button">Say Hello</button>
+      <button className="button">Start a conversation</button>
     </section>
   );
 };

@@ -1,17 +1,34 @@
 import Navbar from "./Navbar";
 import classes from "./MainHeader.module.css";
-import { useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 
 const MainHeader = (props) => {
-  // const isExpanded = props.isExpanded;
+  const [showHeader, setShowHeader] = useState(true);
+  const [prevScroll, setPrevScroll] = useState(window.scrollY);
+  const [currentScroll, setCurrentScroll] = useState(0);
+
+  const onScroll = useCallback(() => {
+    setCurrentScroll(window.scrollY);
+    if (prevScroll > currentScroll) {
+      setShowHeader(true);
+    } else {
+      setShowHeader(false);
+    }
+    setPrevScroll(currentScroll);
+  }, [prevScroll, currentScroll]);
+
   const [isExpanded, setIsExpanded] = useState(false);
+
+  useEffect(() => {
+    window.addEventListener("scroll", onScroll);
+  }, [onScroll]);
 
   const onClickHandler = () => {
     setIsExpanded((prevState) => !isExpanded);
   };
 
   return (
-    <header className={classes.header}>
+    <header className={showHeader ? classes.header : classes["hide-header"]}>
       <div className={classes.logo}>
         <h1>Superfly</h1>
       </div>

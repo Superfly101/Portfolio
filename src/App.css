@@ -44,6 +44,9 @@ a {
   border-radius: 6px;
   cursor: pointer;
   transition: background-color 200ms ease-out;
+  font-family: inherit;
+  /* font: inherit; */
+  /* font-size: 0.8rem; */
 }
 
 .button:hover {
@@ -51,8 +54,16 @@ a {
 }
 
 .contact {
-  margin-block: 10rem;
-  text-align: center;
+  /* margin-block-start: 3rem; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 25rem;
+}
+
+.contact button {
+  width: fit-content;
 }
 
 .contact h3,

@@ -1,4 +1,5 @@
 import "./App.css";
+import Footer from "./components/Footer/Footer";
 import Layout from "./components/Layout/Layout";
 import AboutPage from "./pages/AboutPage";
 import Contact from "./pages/Contact";
@@ -12,6 +13,7 @@ function App() {
       <AboutPage />
       <WorkPage />
       <Contact />
+      <Footer />
     </Layout>
   );
 }

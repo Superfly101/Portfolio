@@ -1,0 +1,33 @@
+.footer svg {
+  width: 1.5rem;
+  height: 1.5rems;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  transition: color 350ms, transform 350ms ease-out;
+}
+
+.footer svg:hover {
+  color: #64ffda;
+  transform: translateY(-0.3rem);
+}
+
+.footer div {
+  margin-block-end: 1rem;
+}
+
+.footer ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  padding-left: 0;
+}
+
+.footer div p {
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: 1rem;
+}

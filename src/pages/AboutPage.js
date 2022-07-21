@@ -18,7 +18,7 @@ const AboutPage = () => {
             Integragtion, Continuous Delivery, Infrastructure as Code,
             Communication and Collaboration.
           </p>
-          <p>
+          <div>
             Here are languages & technologies I've been working with recently:
             <div>
               <h4>Languages</h4>
@@ -33,10 +33,10 @@ const AboutPage = () => {
               <p>
                 <span>Bootstrap</span> <span>Jenkins</span>{" "}
                 <span>Terraform</span> <span>Ansible</span> <span>AWS</span>{" "}
-                <span>Linux</span> <span>Github</span> <span>VS Code</span>
+                <span>Linux</span> <span>Github</span> <span>VSCode</span>
               </p>
             </div>
-          </p>
+          </div>
         </div>
         <div className="inner profile">
           <img

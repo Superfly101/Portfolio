@@ -4,11 +4,16 @@
   align-items: center;
   justify-content: space-between;
   padding: 1rem;
-  background: hsl(0 0% 100% / 0.2);
+  background: rgb(10, 25, 67);
   position: fixed;
   top: 0;
   width: 100vw;
-  backdrop-filter: blur(1rem);
+  transition: top 350ms ease;
+  /* backdrop-filter: blur(1rem); */
+}
+
+.hide-header {
+  top: -4rem;
 }
 
 .navbar-toggle {
