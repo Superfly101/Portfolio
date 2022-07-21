@@ -1,0 +1,36 @@
+.projects h2 {
+  margin-block-end: 1rem;
+}
+
+.project {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  max-width: 40rem;
+  min-height: 15rem;
+  margin: 1rem auto;
+  background: hsl(0 0% 100% / 0.2);
+  transition: background-color 350ms ease-out;
+  transition: transform 350ms ease-out;
+}
+
+.project:hover {
+  transform: scale(1.1);
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.inner {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  gap: 1rem;
+}
+
+@media (max-width: 700px) {
+  .inner {
+    display: block;
+  }
+  .project {
+    margin-block-end: 2rem;
+  }
+}

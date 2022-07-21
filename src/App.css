@@ -35,3 +35,27 @@ a {
   max-width: 40rem;
   font-size: clamp(0.5rem, 4vw, 1rem);
 }
+
+.button {
+  background-color: transparent;
+  padding: 0.8rem 1.6rem;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 200ms ease-out;
+}
+
+.button:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.contact {
+  margin-block: 10rem;
+  text-align: center;
+}
+
+.contact h3,
+.contact p {
+  margin-block-end: 1rem;
+}

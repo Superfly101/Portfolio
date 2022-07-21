@@ -9,6 +9,9 @@ const LandingPage = () => {
         the field of building user interfaced. I am keen on become a mobile
         developer (React-Native), a technical writer, and a community builder.
       </p>
+      <p className="description">
+        Living, learning, & leveling up one day at a time.
+      </p>
     </section>
   );
 };
