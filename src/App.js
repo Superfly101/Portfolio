@@ -14,6 +14,16 @@ function App() {
       <WorkPage />
       <Contact />
       <Footer />
+      {/* <Routes>
+        <Route
+          path="/"
+          element={
+            <>
+              
+            </>
+          }
+        />
+      </Routes> */}
     </Layout>
   );
 }

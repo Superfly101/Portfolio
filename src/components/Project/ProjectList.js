@@ -2,7 +2,7 @@ import classes from "./ProjectList.module.css";
 
 const ProjectList = () => {
   return (
-    <section className={classes.projects}>
+    <section id="work" className={classes.projects}>
       <h2>Some Things I've Built</h2>
       <div className={classes.inner}>
         <div className={classes.project}>

@@ -3,7 +3,7 @@ import userImg from "../assets/shared/user.png";
 
 const AboutPage = () => {
   return (
-    <section className="sub-header">
+    <section id="about" className="sub-header">
       <h2>About Me</h2>
       <div className="outer">
         <div className="inner">
@@ -45,6 +45,7 @@ const AboutPage = () => {
             src={userImg}
             alt="A Bitmoji Headshot"
           />
+          <button className="button">Say Hello</button>
         </div>
       </div>
     </section>
