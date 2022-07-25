@@ -13,6 +13,10 @@
   text-decoration: none;
 }
 
+a:hover {
+  color: #64ffda;
+}
+
 .button {
   background-color: transparent;
   padding: 0.5rem 1.2rem;

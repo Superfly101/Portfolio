@@ -16,6 +16,10 @@
   margin-block-end: 1rem;
 }
 
+.sub-header .inner span {
+  white-space: nowrap;
+}
+
 .sub-header img {
   border: none;
   overflow: hidden;
@@ -34,12 +38,20 @@
   margin-bottom: 0.5rem;
 }
 
+.sub-header .profile {
+  text-align: center;
+}
+
+.profile button {
+  margin-top: 1rem;
+}
+
 @media (max-width: 700px) {
   .sub-header .outer {
     display: block;
   }
 
-  .sub-header .profile {
+  /* .sub-header .profile {
     text-align: center;
-  }
+  } */
 }

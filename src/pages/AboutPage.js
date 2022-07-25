@@ -19,7 +19,10 @@ const AboutPage = () => {
             Communication and Collaboration.
           </p>
           <div>
-            Here are languages & technologies I've been working with recently:
+            <p>
+              {" "}
+              Here are languages & technologies I've been working with recently:
+            </p>
             <div>
               <h4>Languages</h4>
               <p>
