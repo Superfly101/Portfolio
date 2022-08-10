@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/superfly/static/css/main.c274a1d8.css",
+    "main.js": "/superfly/static/js/main.71b1d964.js",
+    "static/js/787.33d12db2.chunk.js": "/superfly/static/js/787.33d12db2.chunk.js",
+    "static/media/user.png": "/superfly/static/media/user.d7f9abb4e6213a1d2215.png",
+    "index.html": "/superfly/index.html",
+    "static/media/icon-close.svg": "/superfly/static/media/icon-close.d47fda63cbd8b3fedbbc.svg",
+    "static/media/icon-hamburger.svg": "/superfly/static/media/icon-hamburger.5273efa7c50e96ef3e51.svg",
+    "main.c274a1d8.css.map": "/superfly/static/css/main.c274a1d8.css.map",
+    "main.71b1d964.js.map": "/superfly/static/js/main.71b1d964.js.map",
+    "787.33d12db2.chunk.js.map": "/superfly/static/js/787.33d12db2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c274a1d8.css",
+    "static/js/main.71b1d964.js"
+  ]
+}
