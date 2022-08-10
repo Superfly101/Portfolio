@@ -1,6 +1,6 @@
 {
   "name": "superfly",
-  "homepage": "https://superfly101.github.io/superfly/",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
