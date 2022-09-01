@@ -44,7 +44,12 @@ const Header = () => {
               </HashLink>
             </li>
             <li>
-              <a href={resume} target="_blank" rel="noreferrer">
+              <a
+                href={resume}
+                target="_blank"
+                rel="noreferrer"
+                className={classes.resume}
+              >
                 Resume
               </a>
             </li>
@@ -86,7 +91,12 @@ const Header = () => {
                   </HashLink>
                 </li>
                 <li>
-                  <a href={resume} target="_blank" rel="noreferrer">
+                  <a
+                    href={resume}
+                    target="_blank"
+                    rel="noreferrer"
+                    className={classes.resume}
+                  >
                     Resume
                   </a>
                 </li>
