@@ -48,7 +48,7 @@ const AboutPage = () => {
             src={userImg}
             alt="A Bitmoji Headshot"
           />
-          <button className="button">Say Hello</button>
+          {/* <button className="button">Say Hello</button> */}
         </div>
       </div>
     </section>

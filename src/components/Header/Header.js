@@ -2,7 +2,6 @@ import { useState } from "react";
 import { HashLink } from "react-router-hash-link";
 import Backdrop from "../UI/Backdrop";
 import classes from "./Header.module.css";
-import resume from "../../assets/file/resume.pdf";
 
 const Header = () => {
   const [isActive, setIsActive] = useState(false);
@@ -45,7 +44,7 @@ const Header = () => {
             </li>
             <li>
               <a
-                href={resume}
+                href="./Daniel_Ukoha.pdf"
                 target="_blank"
                 rel="noreferrer"
                 className={classes.resume}
@@ -92,7 +91,7 @@ const Header = () => {
                 </li>
                 <li>
                   <a
-                    href={resume}
+                    href="./Daniel_Ukoha.pdf"
                     target="_blank"
                     rel="noreferrer"
                     className={classes.resume}

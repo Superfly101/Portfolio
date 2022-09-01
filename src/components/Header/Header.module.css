@@ -35,13 +35,13 @@ nav {
 
 .show {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
   position: fixed;
   top: 0px;
   bottom: 0px;
   right: 0px;
-  padding: 50px 10px;
+  padding-block: min(15vh, 7rem);
   width: min(75vw, 400px);
   height: 100vh;
   outline: 0px;
@@ -81,6 +81,10 @@ aside a {
 .nav-links a {
   text-decoration: none;
   font-size: 0.9rem;
+}
+
+.nav-links a:hover {
+  color: #64ffda;
 }
 
 .hamburger {
@@ -138,9 +142,6 @@ aside a {
 .resume:hover {
   background-color: rgba(255, 255, 255, 0.3);
 }
-/* .nav-active {
-  transform: translateX(0);
-} */
 
 @media (min-width: 770px) {
   .hamburger {
