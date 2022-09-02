@@ -1,6 +1,6 @@
 const LandingPage = () => {
   return (
-    <section className="intro">
+    <section className="intro" id="home">
       <h1 className="primary">Hi there, my name is</h1>
       <h2 className="big-heading">Daniel Ukoha.</h2>
       <h3 className="big-heading">I build web applications.</h3>

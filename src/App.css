@@ -1,13 +1,31 @@
 @import url("https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap");
 
+:root {
+  --dark-blue: #1c2054;
+  --shadow-blue: #8797af;
+  --wild-blue: #a7adc6;
+  --mint-green: #70ff8d;
+  --emerald: #45cb85;
+  --turquoise: #57e2e5;
+  --rich-black: #183a37;
+  --black-shadow: #a89b9d;
+  --vermilion: #e03616;
+  --yellow: #f5d629;
+}
+
 body {
-  background-color: #0a1943;
-  color: #fff;
+  background-color: var(--dark-blue);
+  color: var(--wild-blue);
   font-family: "Poppins", sans-serif;
 }
 
-a {
+h2 {
   color: #fff;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
 }
 
 .intro {
@@ -24,7 +42,7 @@ a {
 }
 
 .primary {
-  color: #64ffda;
+  color: var(--mint-green);
 }
 
 .big-heading {
@@ -41,8 +59,8 @@ a {
 .button {
   background-color: transparent;
   padding: 0.8rem 1.6rem;
-  color: #fff;
-  border: 2px solid #fff;
+  color: var(--mint-green);
+  border: 2px solid var(--mint-green);
   border-radius: 6px;
   cursor: pointer;
   transition: background-color 200ms ease-out;

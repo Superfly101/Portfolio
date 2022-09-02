@@ -1,13 +1,15 @@
 const Contact = () => {
   return (
     <section id="contact" className="contact">
-      <h3>Interested in collaborating with me?</h3>
+      <h2>Interested in collaborating with me?</h2>
       <p>
         I'm always open to discussing web development or partnership
         opportunities.
       </p>
 
-      <button className="button">Start a conversation</button>
+      <a href="mailto:danielukoha101@gmail.com" className="button">
+        Start a conversation
+      </a>
     </section>
   );
 };

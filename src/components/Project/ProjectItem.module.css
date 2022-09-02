@@ -66,11 +66,26 @@ ul {
   transition: color 350ms, transform 350ms ease-out;
 }
 
+.collapsed-desc {
+  display: none;
+}
+
 @media (max-width: 700px) {
   .inner {
     display: block;
   }
   .project {
     margin-block-end: 2rem;
+    display: none;
+  }
+
+  .description {
+    display: none;
+  }
+  .collapsed-desc {
+    background: url("../../assets/img/ChunkIT1.jpg");
+    padding: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
   }
 }

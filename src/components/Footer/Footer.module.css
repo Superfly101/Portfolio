@@ -10,7 +10,7 @@
 }
 
 .footer svg:hover {
-  color: #64ffda;
+  color: var(--mint-green);
   transform: translateY(-0.3rem);
 }
 
