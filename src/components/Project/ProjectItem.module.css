@@ -80,10 +80,11 @@ ul {
   }
 
   .description {
-    display: none;
+    display: block;
   }
   .collapsed-desc {
     background: url("../../assets/img/ChunkIT1.jpg");
+    display: block;
     padding: 1rem;
     border-radius: 8px;
     cursor: pointer;
