@@ -13,8 +13,10 @@ const ProjectItem = (props) => {
         <img src={chunkItImg} alt="ChunkIt" />
       </a>
       <div href={props.href} className={classes["collapsed-desc"]}>
+      <a className={classes.link} href={props.href} target='_blank' rel="nonreferrer"></a>
+
         <p className="primary">Featured Project</p>
-        <h3>{props.title}</h3>
+        <h3 className={classes.title}>{props.title}</h3>
         <p className={classes.details}> {props.desc}</p>
         <ul>
           {props.technologies.map((tech) => (
@@ -59,9 +61,9 @@ const ProjectItem = (props) => {
           </a>
         </div>
       </div>
-      <div className={classes.description}>
+      <div className={classes.description} >
         <p className="primary">Featured Project</p>
-        <h3>{props.title}</h3>
+        <h3 className={classes.title}>{props.title}</h3>
         <p className={classes.details}> {props.desc}</p>
         <ul>
           {props.technologies.map((tech) => (

@@ -32,6 +32,18 @@ h3 {
   grid-template-columns: 2fr 1.5fr;
 }
 
+.title {
+  z-index: 1;
+  position: relative;
+  color: #fff;
+  cursor:default;
+  width: fit-content;
+}
+
+.title:hover {
+  color: var(--mint-green);
+}
+
 .details {
   background-color: #112240;
   display: inline-block;
@@ -40,9 +52,16 @@ h3 {
   padding: 1rem;
 }
 
+.collapsed-desc .details {
+  position: relative;
+  z-index: 1;
+}
+
 ul {
   list-style: none;
   margin-block: 1rem;
+  position: relative;
+  z-index: 1;
 }
 
 .details + ul li {
@@ -50,10 +69,13 @@ ul {
   display: inline-block;
   margin-inline: 1rem;
   font-family: "Cutive Mono", monospace;
+  
 }
 
 .external-link {
   margin-inline: 0.3rem;
+  position: relative;
+  z-index: 1;
 }
 
 .external-link svg {
@@ -70,6 +92,16 @@ ul {
   display: none;
 }
 
+.link {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+  /* z-index: 10; */
+}
+
 @media (max-width: 700px) {
   .inner {
     display: block;
@@ -80,13 +112,14 @@ ul {
   }
 
   .description {
-    display: block;
+    display: none;
   }
   .collapsed-desc {
     background: url("../../assets/img/ChunkIT1.jpg");
     display: block;
     padding: 1rem;
     border-radius: 8px;
-    cursor: pointer;
+    /* cursor: pointer; */
+    position: relative;
   }
 }
