@@ -103,3 +103,30 @@ section h2 {
   padding: 0.6rem;
   box-shadow: min(2.5vw, 30px) max(-2.5vw, -15px) var(--mint-green);
 }
+
+/* Animations */
+
+@keyframes no-transform {
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.intro .head {
+  animation-delay: .8s;
+}
+
+.intro .title {
+  animation-delay: 2s;
+}
+
+.intro .subtitle {
+  animation-delay: 3s;
+}
+
+.animate-pop-in {
+  animation: no-transform.6s cubic-bezier(0, .9, .3, 1.2) forwards;
+  opacity: 0;
+  transform: translateY(4rem) scale(.8);
+}

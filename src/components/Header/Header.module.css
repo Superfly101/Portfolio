@@ -19,27 +19,7 @@ nav {
   color: var(--mint-green);
 }
 
-/* .hide {
-  display: flex;
-  align-items: center;
-  position: fixed;
-  top: 0px;
-  bottom: 0px;
-  right: 0px;
-  padding-block: min(15vh, 7rem);
-  width: min(75vw, 400px);
-  height: 100vh;
-  outline: 0px;
-  background-color: rgb(10, 25, 67);
-  z-index: 9;
-  transform: translateX(100vw);
-  visibility: hidden;
-  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
-} */
-
 .show,.hide {
-  /* display: flex;
-  justify-content: center; */
   position: fixed;
   top: 0px;
   bottom: 0px;

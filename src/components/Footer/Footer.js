@@ -41,7 +41,7 @@ const Footer = () => {
           </li>
           <li>
             <a
-              href="https://www.linkedin.com/in/daniel-ukoha-70a800237/"
+              href="https://www.linkedin.com/in/danielukoha101/"
               aria-label="LinkedLin"
               target="_blank"
               rel="noreferrer"
