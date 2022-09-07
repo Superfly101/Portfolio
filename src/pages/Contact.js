@@ -1,7 +1,7 @@
 const Contact = () => {
   return (
     <section id="contact" className="contact">
-      <h2>Interested in collaborating with me?</h2>
+      <h3>Interested in collaborating with me?</h3>
       <p>
         I'm always open to discussing web development or partnership
         opportunities.

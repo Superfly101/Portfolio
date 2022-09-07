@@ -3,6 +3,7 @@ header {
   padding: 0.5rem 2rem;
   position: fixed;
   width: 100vw;
+  z-index: 99;
 
   /* box-shadow: 0 10px 30px -10px rgba(2, 12, 27, 0.7); */
 }
@@ -18,28 +19,27 @@ nav {
   color: var(--mint-green);
 }
 
-.hide {
+/* .hide {
   display: flex;
   align-items: center;
   position: fixed;
   top: 0px;
   bottom: 0px;
   right: 0px;
-  padding: 50px 10px;
+  padding-block: min(15vh, 7rem);
   width: min(75vw, 400px);
   height: 100vh;
   outline: 0px;
   background-color: rgb(10, 25, 67);
-  backdrop-filter: blur(1rem);
   z-index: 9;
   transform: translateX(100vw);
   visibility: hidden;
   transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
-}
+} */
 
-.show {
-  display: flex;
-  justify-content: center;
+.show,.hide {
+  /* display: flex;
+  justify-content: center; */
   position: fixed;
   top: 0px;
   bottom: 0px;
@@ -56,6 +56,11 @@ nav {
   transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
+.hide {
+  visibility: hidden;
+  transform: translateX(100vw);
+}
+
 aside nav {
   display: flex;
   flex-direction: column;
@@ -65,11 +70,9 @@ aside nav {
 
 aside nav ul {
   display: flex;
-  /* height: 100%; */
-
+  align-items: center;
   flex-direction: column;
   gap: 4rem;
-  /* padding: min(30vh, 8rem) 2rem; */
 }
 
 aside a {

@@ -3,12 +3,12 @@
   padding-top: 5rem;
 }
 
-.sub-header h2 {
+/* .sub-header h2 {
   margin-block-end: 2rem;
   background-color: var(--shadow-blue);
   padding: 0.8rem;
   box-shadow: 40px -15px var(--mint-green);
-}
+} */
 
 .sub-header .outer {
   display: grid;

@@ -36,6 +36,10 @@ a {
 }
 
 .intro h1 {
+  color: #fff;
+}
+
+.intro .diff {
   font-size: clamp(0.8rem, 5vw, 1rem);
   margin-bottom: 1rem;
   font-weight: 400;
@@ -65,8 +69,6 @@ a {
   cursor: pointer;
   transition: background-color 200ms ease-out;
   font-family: inherit;
-  /* font: inherit; */
-  /* font-size: 0.8rem; */
 }
 
 .button:hover {
@@ -74,20 +76,30 @@ a {
 }
 
 .contact {
-  /* margin-block-start: 3rem; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* min-height: 100vh; */
   padding-block: 10rem;
+  text-align: center;
 }
 
 .contact button {
   width: fit-content;
 }
 
-.contact h3,
+.contact h3 {
+  color: #fff;
+  font-size: 1.4rem;
+}
+
 .contact p {
   margin-block-end: 1rem;
+}
+
+section h2 {
+  margin-block-end: 2rem;
+  background-color: var(--shadow-blue);
+  padding: 0.6rem;
+  box-shadow: min(2.5vw, 30px) max(-2.5vw, -15px) var(--mint-green);
 }
