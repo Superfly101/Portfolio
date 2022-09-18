@@ -19,7 +19,7 @@ const Header = () => {
         <nav>
           <div className={classes.logo}>
             <h2>
-              <a href="/">Superfly</a>
+              <a href="./">Superfly</a>
             </h2>
           </div>
           <ul
