@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400&display=swap');
 
 :root {
   --dark-blue: #1c2054;
@@ -55,7 +55,7 @@ a {
 
 .intro p {
   margin-block-start: 2rem;
-  width: 90%;
+  width: 97%;
   max-width: 40rem;
   font-size: clamp(0.5rem, 4vw, 1rem);
 }
@@ -90,8 +90,9 @@ a {
 
 .contact h3 {
   color: #fff;
-  font-size: 1.4rem;
+  font-size: clamp(1.2rem, 3vw, 1.4rem);
 }
+
 
 .contact p {
   margin-block-end: 1rem;
@@ -103,6 +104,8 @@ section h2 {
   padding: 0.6rem;
   box-shadow: min(2.5vw, 30px) max(-2.5vw, -15px) var(--mint-green);
 }
+
+
 
 /* Animations */
 

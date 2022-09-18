@@ -67,9 +67,9 @@ ul {
 .details + ul li {
   /* width: fit-content; */
   display: inline-block;
-  margin-inline: 1rem;
-  font-family: "Cutive Mono", monospace;
-  
+  margin-inline: .3rem;
+  font-family: 'Inconsolata', monospace;
+  letter-spacing: 1px;
 }
 
 .external-link {

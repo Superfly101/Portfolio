@@ -1,5 +1,4 @@
 import "./About.css";
-import userImg from "../assets/shared/user.png";
 
 const AboutPage = () => {
   return (
@@ -45,10 +44,9 @@ const AboutPage = () => {
           <img
             width="300"
             height="300"
-            src={userImg}
-            alt="A Bitmoji Headshot"
+            src='./user.png'
+            alt="A Bitmoji of Daniel Ukoha"
           />
-          {/* <button className="button">Say Hello</button> */}
         </div>
       </div>
     </section>
