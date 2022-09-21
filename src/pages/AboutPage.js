@@ -26,16 +26,15 @@ const AboutPage = () => {
               <h4>Languages</h4>
               <p>
                 <span>HTML</span> <span>CSS</span> <span>JavaScript</span>{" "}
-                <span>Node.js</span> <span>Python</span>{" "}
+                 <span>Python</span>{" "}
                 <span>Shell scripting</span> <span>Git</span>
               </p>
             </div>
             <div>
               <h4>Technologies / Tools</h4>
               <p>
-                <span>Bootstrap</span> <span>Jenkins</span>{" "}
-                <span>Terraform</span> <span>Ansible</span> <span>AWS</span>{" "}
-                <span>Linux</span> <span>Github</span> <span>VSCode</span>
+                <span>React</span> <span>Next.js</span> <span>Node.js</span>{" "}
+               <span>AWS</span> <span>Jenkins</span> <span>Terraform</span> <span>Ansible</span> {" "}
               </p>
             </div>
           </div>

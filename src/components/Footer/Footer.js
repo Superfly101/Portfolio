@@ -61,7 +61,7 @@ const Footer = () => {
         </ul>
       </div>
       <div className={classes.credit}>
-        <p>Built by Superfly & Inspired by Brittany Chiang</p>
+        <p>Built by Superfly & Inspired by <a href="https://brittanychiang.com/" className="primary">Brittany Chiang</a></p>
       </div>
     </section>
   );
