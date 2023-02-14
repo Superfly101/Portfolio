@@ -1,5 +1,4 @@
 import classes from "./ProjectItem.module.css";
-import chunkItImg from "../../assets/img/ChunkIT1.jpg";
 
 const ProjectItem = (props) => {
   return (
@@ -10,36 +9,43 @@ const ProjectItem = (props) => {
         rel="noreferrer"
         className={classes.project}
       >
-        <img src={chunkItImg} alt="ChunkIt" />
+        <img src={props.image} alt={props.desc} />
       </a>
       <div href={props.href} className={classes["collapsed-desc"]}>
-      <a className={classes.link} href={props.href} target='_blank' rel="nonreferrer"></a>
+        <a
+          className={classes.link}
+          href={props.href}
+          target="_blank"
+          rel="noreferrer"
+        ></a>
 
-        <p className="primary">Featured Project</p>
+        <p className="primary">{props.contribution}</p>
         <h3 className={classes.title}>{props.title}</h3>
         <p className={classes.details}> {props.desc}</p>
         <ul>
-          {props.technologies.map((tech) => (
-            <li>{tech}</li>
+          {props.technologies.map((tech, index) => (
+            <li key={index}>{tech}</li>
           ))}
         </ul>
         <div>
-          <a
-            className={classes["external-link"]}
-            href={props.repo}
-            rel="noreferrer"
-            aria-label="Github"
-            target="_blank"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              role="img"
-              viewBox="0 0 24 24"
+          {props.repo && (
+            <a
+              className={classes["external-link"]}
+              href={props.repo}
+              rel="noreferrer"
+              aria-label="Github"
+              target="_blank"
             >
-              <title>GitHub</title>
-              <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
-            </svg>
-          </a>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                role="img"
+                viewBox="0 0 24 24"
+              >
+                <title>GitHub</title>
+                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+              </svg>
+            </a>
+          )}
           <a
             className={classes["external-link"]}
             href={props.href}
@@ -61,32 +67,34 @@ const ProjectItem = (props) => {
           </a>
         </div>
       </div>
-      <div className={classes.description} >
-        <p className="primary">Featured Project</p>
+      <div className={classes.description}>
+        <p className="primary">{props.contribution}</p>
         <h3 className={classes.title}>{props.title}</h3>
         <p className={classes.details}> {props.desc}</p>
         <ul>
-          {props.technologies.map((tech) => (
-            <li>{tech}</li>
+          {props.technologies.map((tech, index) => (
+            <li key={index}>{tech}</li>
           ))}
         </ul>
         <div>
-          <a
-            className={classes["external-link"]}
-            href={props.repo}
-            rel="noreferrer"
-            aria-label="Github"
-            target="_blank"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              role="img"
-              viewBox="0 0 24 24"
+          {props.repo && (
+            <a
+              className={classes["external-link"]}
+              href={props.repo}
+              rel="noreferrer"
+              aria-label="Github"
+              target="_blank"
             >
-              <title>GitHub</title>
-              <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
-            </svg>
-          </a>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                role="img"
+                viewBox="0 0 24 24"
+              >
+                <title>GitHub</title>
+                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+              </svg>
+            </a>
+          )}
           <a
             className={classes["external-link"]}
             href={props.href}

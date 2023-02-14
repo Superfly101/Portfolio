@@ -27,16 +27,19 @@ h3 {
 }
 
 .inner {
-  display: grid;
+  display: flex;
   gap: 2rem;
-  grid-template-columns: 2fr 1.5fr;
+}
+
+.inner:nth-of-type(2) {
+  flex-direction: row-reverse;
 }
 
 .title {
   z-index: 1;
   position: relative;
   color: #fff;
-  cursor:default;
+  cursor: default;
   width: fit-content;
 }
 
@@ -50,6 +53,7 @@ h3 {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
   border-radius: 6px;
   padding: 1rem;
+  width: 100%;
 }
 
 .collapsed-desc .details {
@@ -67,8 +71,8 @@ ul {
 .details + ul li {
   /* width: fit-content; */
   display: inline-block;
-  margin-inline: .3rem;
-  font-family: 'Inconsolata', monospace;
+  margin-inline: 0.3rem;
+  font-family: "Inconsolata", monospace;
   letter-spacing: 1px;
 }
 
@@ -102,6 +106,13 @@ ul {
   /* z-index: 10; */
 }
 
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
 @media (max-width: 700px) {
   .inner {
     display: block;
@@ -115,7 +126,8 @@ ul {
     display: none;
   }
   .collapsed-desc {
-    background: url("../../assets/img/ChunkIT1.jpg");
+    /* background: url("../../assets/img/ChunkIT1.jpg"); */
+    background-color: #11224063;
     display: block;
     padding: 1rem;
     border-radius: 8px;
