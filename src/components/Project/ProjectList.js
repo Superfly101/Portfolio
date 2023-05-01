@@ -3,15 +3,14 @@ import classes from "./ProjectList.module.css";
 
 const projects = [
   {
-    contribution: "Featured Project",
-    title: "ChunkIT",
-    img: "https://res.cloudinary.com/dpfycjmuw/image/upload/v1676403550/ChunkIT_-_Google_Chrome_14_02_2023_20_23_02_qlhtfu.png",
-    href: "https://chunkt.pythonanywhere.com/",
-    repository:
-      "https://github.com/zuri-training/Pro_Team_41_Chunk-File#readme",
+    title: "MyQuiz App",
+    img: "https://res.cloudinary.com/dpfycjmuw/image/upload/v1682936241/my-quiz-app_pkrakf.png",
+    href: "https://quiz-app-hazel-delta.vercel.app/",
     description:
-      "A platform that accepts CSV or JSON large files and chunks them into smaller bits.",
-    technologiesUsed: ["HTML", "CSS", "JavaScript", "Django"],
+      "A web app to help prepare for test in subjects like Mathematics, Sport, History, Politics, Japanese Anime & Manga, and so on.",
+    technologiesUsed: ["Chakra UI", "Tailwindcss", "Next.js", "Trivia API"],
+    repository: "https://github.com/Superfly101/Quiz-App",
+    contribution: "Personal Project",
   },
   {
     contribution: "Featured Project",
@@ -30,6 +29,17 @@ const projects = [
     description: "A simple music web application",
     technologiesUsed: ["React.js", "Tailwindcss", "Next.js"],
     contribution: "Personal Project In Progress",
+  },
+  {
+    contribution: "Featured Project",
+    title: "ChunkIT",
+    img: "https://res.cloudinary.com/dpfycjmuw/image/upload/v1676403550/ChunkIT_-_Google_Chrome_14_02_2023_20_23_02_qlhtfu.png",
+    href: "https://chunkt.pythonanywhere.com/",
+    repository:
+      "https://github.com/zuri-training/Pro_Team_41_Chunk-File#readme",
+    description:
+      "A platform that accepts CSV or JSON large files and chunks them into smaller bits.",
+    technologiesUsed: ["HTML", "CSS", "JavaScript", "Django"],
   },
 ];
 
