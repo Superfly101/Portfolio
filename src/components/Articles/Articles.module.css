@@ -1,0 +1,9 @@
+.articles {
+  padding-top: 5rem;
+}
+
+.articles .list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}

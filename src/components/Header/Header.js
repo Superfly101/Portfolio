@@ -40,6 +40,11 @@ const Header = () => {
               </HashLink>
             </li>
             <li>
+              <HashLink to="#articles" smooth>
+                Articles
+              </HashLink>
+            </li>
+            <li>
               <HashLink to="#contact" smooth>
                 Contact
               </HashLink>
@@ -84,6 +89,11 @@ const Header = () => {
                 <li>
                   <HashLink to="#work" onClick={onCloseHandler} smooth>
                     Work
+                  </HashLink>
+                </li>
+                <li>
+                  <HashLink to="#articles" onClick={onCloseHandler} smooth>
+                    Articles
                   </HashLink>
                 </li>
                 <li>
