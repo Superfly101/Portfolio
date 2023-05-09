@@ -41,7 +41,6 @@ const useArticle = () => {
       setIsLoading(false);
       setArticles(json.data.user.publication.posts);
     };
-    console.log("Running Effect");
     fetchArticle(GET_USER_ARTICLES, { page: 0 });
   }, [GET_USER_ARTICLES]);
 
