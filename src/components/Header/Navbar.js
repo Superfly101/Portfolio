@@ -15,7 +15,7 @@ const Navbar = (props) => {
         </li>
         <li>
           <HashLink to="#work" smooth>
-            Work
+            Projects
           </HashLink>
         </li>
         <li>

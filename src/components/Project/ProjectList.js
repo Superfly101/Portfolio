@@ -8,7 +8,13 @@ const projects = [
     href: "https://quiz-app-hazel-delta.vercel.app/",
     description:
       "A web app to help prepare for test in subjects like Mathematics, Sport, History, Politics, Japanese Anime & Manga, and so on.",
-    technologiesUsed: ["Chakra UI", "Tailwindcss", "Next.js", "Trivia API"],
+    technologiesUsed: [
+      "Chakra-UI",
+      "TailwindCSS",
+      "TypeScript",
+      "Next.js",
+      "TriviaAPI",
+    ],
     repository: "https://github.com/Superfly101/Quiz-App",
     contribution: "Personal Project",
   },
@@ -19,7 +25,7 @@ const projects = [
     href: "https://creative-start-website.vercel.app",
     description:
       "A Company's Website with multiple forms including a contact us form",
-    technologiesUsed: ["React.js", "Tailwindcss", "Next.js"],
+    technologiesUsed: ["React.js", "TailwindCSS", "Next.js", "Cloudinary"],
   },
   {
     title: "Musica",
@@ -27,7 +33,7 @@ const projects = [
     img: "https://res.cloudinary.com/dpfycjmuw/image/upload/v1676403651/ChunkIT_-_Google_Chrome_14_02_2023_20_25_38_ga1svs.png",
     repository: "https://github.com/Superfly101/Musica",
     description: "A simple music web application",
-    technologiesUsed: ["React.js", "Tailwindcss", "Next.js"],
+    technologiesUsed: ["React.js", "TailwindCSS", "Next.js"],
     contribution: "Personal Project In Progress",
   },
   {
@@ -45,7 +51,7 @@ const projects = [
 
 const ProjectList = () => {
   return (
-    <section id="work" className={classes.projects}>
+    <section id="projects" className={classes.projects}>
       <h2>Some Things I've Built</h2>
 
       <ul className={classes.list}>

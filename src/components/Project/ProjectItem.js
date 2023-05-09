@@ -116,16 +116,6 @@ const ProjectItem = (props) => {
           </a>
         </div>
       </div>
-
-      {/* <div className={classes.project}>
-      <h3>Coming soon...</h3>
-    </div>
-    <div className={classes.project}>
-      <h3>Coming soon...</h3>
-    </div>
-    <div className={classes.project}>
-      <h3>Coming soon...</h3>
-    </div> */}
     </li>
   );
 };
