@@ -7,7 +7,7 @@ const projects = [
     img: "https://res.cloudinary.com/dpfycjmuw/image/upload/v1682936241/my-quiz-app_pkrakf.png",
     href: "https://quiz-app-hazel-delta.vercel.app/",
     description:
-      "A web app to help prepare for test in subjects like Mathematics, Sport, History, Politics, Japanese Anime & Manga, and so on.",
+      "A web app to help prepare for tests in subjects like Mathematics, Sports, History, Politics, Japanese Anime & Manga, etc.",
     technologiesUsed: [
       "Chakra-UI",
       "TailwindCSS",
@@ -24,7 +24,7 @@ const projects = [
     img: "https://res.cloudinary.com/dpfycjmuw/image/upload/v1676403705/ChunkIT_-_Google_Chrome_14_02_2023_20_23_59_rs8jem.png",
     href: "https://creative-start-website.vercel.app",
     description:
-      "A Company's Website with multiple forms including a contact us form",
+      "A fullstack company website that connects the company and their potential clients",
     technologiesUsed: ["React.js", "TailwindCSS", "Next.js", "Cloudinary"],
   },
   {
@@ -36,17 +36,17 @@ const projects = [
     technologiesUsed: ["React.js", "TailwindCSS", "Next.js"],
     contribution: "Personal Project In Progress",
   },
-  {
-    contribution: "Featured Project",
-    title: "ChunkIT",
-    img: "https://res.cloudinary.com/dpfycjmuw/image/upload/v1676403550/ChunkIT_-_Google_Chrome_14_02_2023_20_23_02_qlhtfu.png",
-    href: "https://chunkt.pythonanywhere.com/",
-    repository:
-      "https://github.com/zuri-training/Pro_Team_41_Chunk-File#readme",
-    description:
-      "A platform that accepts CSV or JSON large files and chunks them into smaller bits.",
-    technologiesUsed: ["HTML", "CSS", "JavaScript", "Django"],
-  },
+  // {
+  //   contribution: "Featured Project",
+  //   title: "ChunkIT",
+  //   img: "https://res.cloudinary.com/dpfycjmuw/image/upload/v1676403550/ChunkIT_-_Google_Chrome_14_02_2023_20_23_02_qlhtfu.png",
+  //   href: "https://chunkt.pythonanywhere.com/",
+  //   repository:
+  //     "https://github.com/zuri-training/Pro_Team_41_Chunk-File#readme",
+  //   description:
+  //     "A platform that accepts CSV or JSON large files and chunks them into smaller bits.",
+  //   technologiesUsed: ["HTML", "CSS", "JavaScript", "Django"],
+  // },
 ];
 
 const ProjectList = () => {
