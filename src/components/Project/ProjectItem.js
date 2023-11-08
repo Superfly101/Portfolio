@@ -49,7 +49,7 @@ const ProjectItem = (props) => {
           <a
             className={classes["external-link"]}
             href={props.href}
-            aria-label="ChunkIT"
+            aria-label={props.title}
             target="_blank"
             rel="noreferrer"
           >
@@ -57,7 +57,6 @@ const ProjectItem = (props) => {
               xmlns="http://www.w3.org/2000/svg"
               role="img"
               viewBox="0 0 24 24"
-              // class="external-link"
             >
               <title>External Link</title>
               <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
@@ -98,7 +97,7 @@ const ProjectItem = (props) => {
           <a
             className={classes["external-link"]}
             href={props.href}
-            aria-label="ChunkIT"
+            aria-label={props.title}
             target="_blank"
             rel="noreferrer"
           >
@@ -106,7 +105,6 @@ const ProjectItem = (props) => {
               xmlns="http://www.w3.org/2000/svg"
               role="img"
               viewBox="0 0 24 24"
-              // class="external-link"
             >
               <title>External Link</title>
               <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
