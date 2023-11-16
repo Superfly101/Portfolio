@@ -33,16 +33,16 @@ const projects = [
     title: "Musica",
     href: "http://musica-six.vercel.app/",
     // img: "https://res.cloudinary.com/dpfycjmuw/image/upload/v1676403651/ChunkIT_-_Google_Chrome_14_02_2023_20_25_38_ga1svs.png",
-    img: "https://www.site-shot.com/cached_image/6f8c-H6DEe6jtAJCrBEACA",
+    img: "https://api.pikwy.com/web/6555e2f961e73a0bae194a37.jpg",
     repository: "https://github.com/Superfly101/Musica",
-    description: "A simple music web application",
+    description: "A simple music web application User Interface",
     technologiesUsed: ["React.js", "TailwindCSS", "Next.js"],
     contribution: "Personal Project In Progress",
   },
   {
     title: "Finelines",
     href: "https://finelines-gold.vercel.app/",
-    img: "https://www.site-shot.com/cached_image/SZlLXH6EEe6WcgJCrBEACA",
+    img: "https://api.pikwy.com/web/6555e4b14db835520824555f.jpg",
     description:
       "A website with top pickup lines to help get that conversation started.",
     technologiesUsed: [
