@@ -4,7 +4,7 @@ import classes from "./ProjectList.module.css";
 const projects = [
   {
     title: "Finelines",
-    href: "https://finelines-gold.vercel.app/",
+    href: "https://finelines-bice.vercel.app/",
     img: "finelines.png",
     description:
       "A web app with a curated collection of conversation starters and pickup lines, whether you're aiming for a good laugh with your favorite person, or a genuine connection with an acquaintance. ",
