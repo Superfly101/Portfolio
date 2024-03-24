@@ -1,7 +1,7 @@
 export const PROJECTS = [
   {
     title: "FindCare",
-    href: "https://medlink-frontend.netlify.app/",
+    href: "https://find-care.netlify.app/",
     img: "findcare.png",
     description:
       "FindCare is a web platform that brings ease to how patients interact with healthcare practitioners. With an option of booking appointments with doctors from the comfort of your home or having an AI model diagnose your health symptoms.",
